@@ -1,0 +1,104 @@
+html, body {
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #333
+}
+
+body {
+  background: none;
+  /* background: #F3F6F6 url(background.jpg) no-repeat center; */
+  /* background-size: cover; */
+  /* background-attachment: fixed; */
+  min-height: 100%;
+}
+
+.backdrop {
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  background: #F3F6F6 url(/assets/images/background.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.outer-container {
+  padding: 40px 0;
+}
+
+.container {
+  width: 80%;
+  max-width: 600px;
+  background: white;
+  margin: 0 auto;
+}
+
+/* top content */
+.title {
+  background: url(/assets/images/me.jpg) no-repeat right;
+  background-size: cover;
+}
+
+h1 {
+  padding: 200px 20px 20px;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 18px;
+  color: white;
+}
+
+.inner-sub {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+/* text content */
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0 0 10px;
+}
+
+p {
+  line-height: 20px;
+}
+
+b {
+  font-weight: 600;
+}
+
+.about-me {
+  padding: 20px 20px 20px;
+}
+
+.social-links {
+  padding: 0 20px 40px;
+}
+
+.social-links li {
+  padding: 0 0 7px;
+}
+
+a {
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+  color: #333;
+  text-decoration: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0);
+}
+
+a:hover {
+  color: #667;
+  border-bottom: 2px solid #667;
+}
