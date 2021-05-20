@@ -38,7 +38,7 @@ sass:
 
 sign_up:
   #sign_up_link: https://www.google.com/foobarbaz
-  excuse_text: Anmälan öppnar på söndag!
+  excuse_text: Anmälan öppnar söndag!
 
 # Exclude from processing.
 # The following items will not be processed, by default.
