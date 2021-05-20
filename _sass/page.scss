@@ -62,11 +62,6 @@ ul {
   background-size: cover;
 }
 
-.section.is-small {
-  padding-top: 1em;
-  padding-bottom: 0;
-}
-
 .last-info {
   .column {
     min-height: 400px;
@@ -102,4 +97,8 @@ ul {
       background: $color-red;
     }
   }
+}
+
+.section {
+  padding: 3rem 1.5rem 1rem;
 }
