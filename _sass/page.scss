@@ -1,0 +1,105 @@
+.header-hero {
+  background: url('/assets/images/headerbg.jpg') no-repeat center;
+  background-size: cover;
+  height: 300px;
+  text-align: center;
+
+  img {
+    height: 250px;
+    padding: 20px 0 0 0;
+  }
+
+}
+
+.intro-left, .intro-pic {
+  min-height: 400px;
+}
+
+.intro-pic {
+  background: url('/assets/images/intro_pic.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.bible-quote {
+  text-align: center;
+}
+
+.big-pic {
+  min-height: 400px;
+  margin-left: -.75rem;
+}
+
+.first-big-pic {
+  background: url('/assets/images/first_big_pic.jpg') no-repeat center;
+}
+
+.camp-info {
+  .question {
+    padding: 15px 0 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+}
+
+ul {
+  list-style-type: circle;
+  padding: 0 0 0 18px;
+}
+
+.covid-info {
+  .column {
+    min-height: 400px;
+  }
+
+  .covid-side-pic {
+    background: url('/assets/images/covid_info_pic.jpg') no-repeat center;
+    background-size: cover;
+  }
+}
+
+.second-big-pic {
+  background: url('/assets/images/second_big_pic.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.section.is-small {
+  padding-top: 1em;
+  padding-bottom: 0;
+}
+
+.last-info {
+  .column {
+    min-height: 400px;
+  }
+
+  .last-info-pic {
+      background: url('/assets/images/last-info-pic.jpg') no-repeat center;
+      background-size: cover;
+  }
+}
+
+.space-holder {
+  height: 90px;
+}
+
+.sign-up-button {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  .sign-up-link {
+    display: block;
+    text-align: center;
+    line-height: 80px;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: white;
+    background: $color-pink-red;
+    cursor: pointer;
+
+    &:hover {
+      background: $color-red;
+    }
+  }
+}

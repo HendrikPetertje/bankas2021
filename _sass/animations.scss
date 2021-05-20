@@ -1,0 +1,5 @@
+$speed: 300ms;
+
+@mixin transition {
+  transition: all $speed ease;
+}
