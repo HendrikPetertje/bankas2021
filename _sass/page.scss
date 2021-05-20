@@ -11,13 +11,10 @@
 
 }
 
-.intro-left, .intro-pic {
-  min-height: 400px;
-}
-
 .intro-pic {
   background: url('/assets/images/intro_pic.jpg') no-repeat center;
   background-size: cover;
+  min-height: 400px;
 }
 
 .bible-quote {
@@ -47,12 +44,9 @@ ul {
 }
 
 .covid-info {
-  .column {
-    min-height: 400px;
-  }
-
   .covid-side-pic {
     background: url('/assets/images/covid_info_pic.jpg') no-repeat center;
+    min-height: 400px;
     background-size: cover;
   }
 }
@@ -63,13 +57,10 @@ ul {
 }
 
 .last-info {
-  .column {
-    min-height: 400px;
-  }
-
   .last-info-pic {
-      background: url('/assets/images/last-info-pic.jpg') no-repeat center;
-      background-size: cover;
+    background: url('/assets/images/last-info-pic.jpg') no-repeat center;
+    background-size: cover;
+    min-height: 400px;
   }
 }
 
@@ -101,4 +92,13 @@ ul {
 
 .section {
   padding: 3rem 1.5rem 1rem;
+
+  &.no-bottom-padding {
+    padding-bottom: 0;
+  }
+
+  &.no-top-padding {
+    padding-top: 0;
+  }
 }
+
