@@ -37,7 +37,7 @@ sass:
   style: compressed
 
 sign_up:
-  sign_up_link: https://bit.ly/3bHFcsZ
+  link: https://bit.ly/3bHFcsZ
   excuse_text: Anmälan öppnar söndag kl 18:00!
 
 # Exclude from processing.
